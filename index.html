@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi Princesa</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="video-title" id="inicio">
+		<video class="Video-title" onloadedmetadata="this.muted=true" rameborder="0" allowfullscreen autoplay loop
+		muted >
+			<source src="img/video1.mp4" type="video/mp4">
+			Tu navegador no es compatible con el video. 
+		</video>
+	</div>
+    <div class="border1">
+    </div>
+    <div class="container1">
+        <div class="container1-text">
+            <h3>Hello my Girl!!!</h3>
+            <p>Mi Princesa Hermosa, hoy en un duodecimo cúmpleños te quiero desear un feliz cúmpleños... </p>
+        </div>
+        <div class="container1-img">
+            <img src="img/photo-1.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="container1">
+        <div class="container1-img">
+            <img src="img/photo-3.jpg" alt="">
+        </div>
+        <div class="container1-text">
+            <p>Sabes que siempre estaré ahí para ti, en todo lo que necesites, quiero ayudarte hacer tus sueños realidad y que puedas cumplir tus metas... </p>
+        </div>
+
+    </div>
+
+    <div class="container1">
+        <div class="container1-text">
+            <p>No sabes cuanto Agradezco a Dios por ponerte en mi vida, quiero que se sepas que siempre estas en mi mente y anhelo el dia que te pueda llevar al altar... </p>
+        </div>
+        <div class="container1-img">
+            <img src="img/photo-2.jpg" alt="">
+        </div>
+
+    </div>
+    <div class="container1">
+        <div class="container1-img">
+            <img src="img/photo-4.jpg" alt="">
+        </div>
+        <div class="container1-text">
+            <h3>Atte: Tu novio que te Ama mucho :3</h4>
+        </div>
+    </div>
+
+    <div class="bottom">
+
+        <div class="wrapper">
+            <div class="top-bar">
+              <i class="material-icons">expand_more</i>
+              <span>Now Playing</span>
+              <i class="material-icons">more_horiz</i>
+            </div>
+            <div class="img-area">
+              <img src="" alt="">
+            </div>
+            <div class="song-details">
+              <p class="name"></p>
+              <p class="artist"></p>
+            </div>
+            <div class="progress-area">
+              <div class="progress-bar">
+                <audio id="main-audio" src=""></audio>
+              </div>
+              <div class="song-timer">
+                <span class="current-time">0:00</span>
+                <span class="max-duration">0:00</span>
+              </div>
+            </div>
+            <div class="controls">
+              <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+              <i id="prev" class="material-icons">skip_previous</i>
+              <div class="play-pause">
+                <i class="material-icons play">play_arrow</i>
+              </div>
+              <i id="next" class="material-icons">skip_next</i>
+              <i id="more-music" class="material-icons">queue_music</i>
+            </div>
+            <div class="music-list">
+              <div class="header">
+                <div class="row">
+                  <i class= "list material-icons">queue_music</i>
+                  <span>Music list</span>
+                </div>
+                <i id="close" class="material-icons">close</i>
+              </div>
+              <ul>
+                <!-- here li list are coming from js -->
+              </ul>
+            </div>
+          </div>
+
+          <script src="js/music-list.js"></script>
+          <script src="js/script.js"></script>
+        
+
+
+    
+    </div>
+    
+
+</body>
+</html>
